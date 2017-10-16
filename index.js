@@ -8,7 +8,8 @@ const api = new Kitsu({
   }
 })
 
-const DATA = []
+const dataFrequency = []
+const dataAverage = []
 
 async function getData (offset) {
   try {
@@ -34,8 +35,8 @@ function getScore (ratingFrequencies) {
 async function populate (offset) {
   const { data, links, count } = await getData(offset)
   for ({ ratingFrequencies, averageRating, subtype } of await data) {
-    DATA.push({ score: getScore(ratingFrequencies), subtype })
-    // DATA.push({ score: averageRating, subtype})
+    dataFrequency.push({ score: getScore(ratingFrequencies), subtype })
+    dataAverage.push({ score: averageRating, subtype})
   }
   const percentComplete = ((offset + 20) / count * 100)
   const remaining = Math.ceil(((count - offset - 20) / 20))
@@ -45,7 +46,12 @@ async function populate (offset) {
 
 (async () => {
   await populate(0)
-  writeFile('data.json', JSON.stringify(DATA), err => {
+  writeFile('dataFrequency.json', JSON.stringify(dataFrequency), err => {
+    if (err) throw err
+    else console.log('Saved data to file')
+  })
+
+  writeFile('dataAverage.json', JSON.stringify(dataAverage), err => {
     if (err) throw err
     else console.log('Saved data to file')
   })
