@@ -1,4 +1,4 @@
-# Kitsu anime by score
+# Kitsu anime by scores
 
 Jump To:
 - [Results - Average Ratings](#average-ratings)
