@@ -1,8 +1,8 @@
 # Kitsu anime by score
 
 Jump To:
-- [Results - Average Ratings]()
-- [Results - Rating Frequencies]()
+- [Results - Average Ratings](#average-ratings)
+- [Results - Rating Frequencies](#rating-frequencies)
 
 ## Run It
 
