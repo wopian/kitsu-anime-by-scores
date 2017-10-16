@@ -15,7 +15,7 @@ Jump To:
 
 ### Average Ratings
 
-This uses the `averageRating` field from Kitsu's API, which is the
+Uses the `averageRating` field from Kitsu's API, which is the
 weighted mean (?) of the `ratingFrequencies`. There are a considerable
 amount of unrated shows with this method, as this field is only
 populated when more than `100` users have rated the show.
