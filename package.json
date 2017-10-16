@@ -1,0 +1,16 @@
+{
+  "name": "kitsu-anime-by-score",
+  "version": "1.0.0",
+  "description": "Kitsu anime by score",
+  "main": "index.js",
+  "repository": "https://gist.github.com/wopian/397f5e2e767130c7f14d6908b6dc82bb.git",
+  "author": "James Harris <wopian@wopian.me>",
+  "license": "MIT",
+  "dependencies": {
+    "kitsu": "^3.0.2",
+    "markdown-table": "^1.1.1",
+    "plotly": "^1.0.6",
+    "stats-lite": "^2.1.0",
+    "weighted-mean": "^1.0.2"
+  }
+}
