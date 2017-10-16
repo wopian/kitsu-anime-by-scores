@@ -50,7 +50,8 @@ populated when more than `100` users have rated the show.
 
 Essentially the raw rating for a show. `ratingFrequencies` is an
 object that contains the number of users that have rated the show
-on a `2..20` scale (`1` to `10` in `.5` increments).
+on a `2..20` scale (`1` to `10` in `.5` increments). Converted into
+a weighted mean to get an average rating.
 
 All of these show clear spikes at `X.0` intervals (and somewhat less
 prominent at `X.5` intervals), a result of many obscure shows which
