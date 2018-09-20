@@ -1,4 +1,6 @@
-const  plotly = require('plotly')('your_username','your_api_token')
+
+const { PLOTLY_USERNAME, PLOTLY_API_KEY } = require('./env')
+const  plotly = require('plotly')(PLOTLY_USERNAME, PLOTLY_API_KEY)
 const { createWriteStream } = require('fs')
 const dataFrequency = require('./dataFrequency.json')
 const dataAverage = require('./dataAverage.json')

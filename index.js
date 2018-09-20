@@ -1,10 +1,10 @@
 const Kitsu = require('kitsu')
 const { writeFile } = require('fs')
 const mean = require('weighted-mean')
-const token = 'add_your_accessToken_here'
+const { KITSU_AUTH_TOKEN } = require('./env')
 const api = new Kitsu({
   headers: {
-    Authorization: `Bearer ${token}`
+    Authorization: `Bearer ${KITSU_AUTH_TOKEN}`
   }
 })
 
@@ -40,7 +40,7 @@ async function populate (offset) {
   }
   const percentComplete = ((offset + 20) / count * 100)
   const remaining = Math.ceil(((count - offset - 20) / 20))
-  console.log(`${percentComplete.toFixed(2)}% Complete. ${remaining} pages remaining`)
+  process.stdout.write(`${percentComplete.toFixed(2)}% Complete. ${remaining} pages remaining\r`)
   if (links && links.next) await populate(offset + 20)
 }
 

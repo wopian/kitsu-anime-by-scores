@@ -11,6 +11,16 @@ Jump To:
 - `node graph` - Generate images (requires a [Plot.ly](https://plot.ly) account)
 - `node stats` - Show statistics
 
+### `env.js`
+
+```js
+module.exports = {
+  PLOTLY_USERNAME: '',
+  PLOTLY_API_KEY: '', // https://plot.ly/settings/api
+  KITSU_AUTH_TOKEN: ''
+}
+```
+
 ## Results
 
 ### Average Ratings
