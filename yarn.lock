@@ -82,9 +82,9 @@ regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
-stats-lite@~2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/stats-lite/-/stats-lite-2.1.1.tgz#8ed08bd4720be7aa6a277ec1f353f3e2b4a9120f"
+stats-lite@~2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/stats-lite/-/stats-lite-2.2.0.tgz#278a5571fa1d2e8b1691295dccc0235282393bbf"
   dependencies:
     isnumber "~1.0.0"
 
