@@ -7,7 +7,7 @@
   "author": "James Harris <wopian@wopian.me>",
   "license": "MIT",
   "dependencies": {
-    "kitsu": "~6.5.0",
+    "kitsu": "~7.0.0",
     "markdown-table": "~1.1.1",
     "plotly": "~1.0.6",
     "stats-lite": "~2.2.0",
