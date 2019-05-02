@@ -3,9 +3,9 @@
 
 
 "@babel/runtime@^7.0.0":
-  version "7.4.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.2.tgz#f5ab6897320f16decd855eed70b705908a313fe8"
-  integrity sha512-7Bl2rALb7HpvXFL7TETNzKSAeBVCPHELzc0C//9FCxN8nsiueWSJBqaF+2oIJScyILStASR/Cx5WMkXGYTiJFA==
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
+  integrity sha512-w0+uT71b6Yi7i5SE0co4NioIpSYS6lLiXvCzWzGSKvpK5vdQtCbICHMj+gbAKAOtxiV6HsVh/MBdaF9EQ6faSg==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -41,21 +41,21 @@ isnumber@~1.0.0:
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.0.0.tgz#ae690f3c52c73e476287bfd4caf0f67297fae815"
-  integrity sha512-6uBdhFlrSgfAGZsVgtZrq7uLBVbdVe7Q/XGTfGVT8HTcyipOo4peZNs22i+Vm0J42Dkm25ZEPNhHhqoqphxEDw==
+kitsu-core@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.0.1.tgz#b0aa540878a2ec25cc08e2c10fe94617d327ed8b"
+  integrity sha512-Cz8dzIrBDjKGBB9FLiI5KwMeMGCixOu4E6RWtgopfLQVT4XxrueO1zjNCM6SsFyvE8jV1YZOzNou8U5Nd6cj4Q==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
 kitsu@~7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.0.0.tgz#d07d0e395b04811debfde8f0667d608666681b91"
-  integrity sha512-/nK6K/Sl9+ZhmMx4kAm3sF4dKIptxiV6zWnDEsuIdrhyYP82xVoA8f3NbMFvLeYKSu3B4LhbnE5c/cbJ/5ysxg==
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.0.1.tgz#96e050746db5b8f96208ea710e459d166c12b68f"
+  integrity sha512-nG8uOMO3TZQlc0iGITET7il0yJoKwLIuQDM/6ljjK2oSC35eEIL2D7W6AMTBDGzx0GJ2nXXLYcCERkSw1z27zA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     axios "^0.18.0"
-    kitsu-core "^7.0.0"
+    kitsu-core "^7.0.1"
     pluralize "^7.0.0"
 
 markdown-table@~1.1.1:
