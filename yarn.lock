@@ -3,9 +3,9 @@
 
 
 "@babel/runtime@^7.0.0":
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
-  integrity sha512-w0+uT71b6Yi7i5SE0co4NioIpSYS6lLiXvCzWzGSKvpK5vdQtCbICHMj+gbAKAOtxiV6HsVh/MBdaF9EQ6faSg==
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
+  integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -41,27 +41,25 @@ isnumber@~1.0.0:
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.0.1.tgz#b0aa540878a2ec25cc08e2c10fe94617d327ed8b"
-  integrity sha512-Cz8dzIrBDjKGBB9FLiI5KwMeMGCixOu4E6RWtgopfLQVT4XxrueO1zjNCM6SsFyvE8jV1YZOzNou8U5Nd6cj4Q==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
+kitsu-core@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.0.3.tgz#be138278ae5a3286ff62a60dfe321818f3a181cb"
+  integrity sha512-AKLU6A5c1R+tbLxoj9KHHzv5MXAEhQqC/zoS0tE3Lx/9FbV04ghc/MIFkUSUQj9YizLhWWeC69facmdb4Q48hQ==
 
 kitsu@~7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.0.1.tgz#96e050746db5b8f96208ea710e459d166c12b68f"
-  integrity sha512-nG8uOMO3TZQlc0iGITET7il0yJoKwLIuQDM/6ljjK2oSC35eEIL2D7W6AMTBDGzx0GJ2nXXLYcCERkSw1z27zA==
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.0.3.tgz#82ebeac374715d3013ff3a2bb4323f83f58f7dfd"
+  integrity sha512-2Olf628o/aUSnG1ycdKzmWO5/PUEJQNiLpjUx7zeN812dMfOnNs/pE9HJ2TRquttJZ6yqysN7mBLy/7eGfKctA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     axios "^0.18.0"
-    kitsu-core "^7.0.1"
+    kitsu-core "^7.0.3"
     pluralize "^7.0.0"
 
 markdown-table@~1.1.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.2.tgz#c78db948fa879903a41bce522e3b96f801c63786"
-  integrity sha512-NcWuJFHDA8V3wkDgR/j4+gZx+YQwstPgfQDV8ndUeWWzta3dnDTBxpVzqS9lkmJAuV5YX35lmyojl6HO5JXAgw==
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.3.tgz#9fcb69bcfdb8717bfd0398c6ec2d93036ef8de60"
+  integrity sha512-1RUZVgQlpJSPWYbFSpmudq5nHY1doEIv89gBtF0s4gW1GF2XorxcA/70M5vq7rLv0a6mhOUccRsqkwhwLCIQ2Q==
 
 minimist@0.0.8:
   version "0.0.8"
