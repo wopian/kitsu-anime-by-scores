@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.7.4":
-  version "7.7.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
-  integrity sha512-r24eVUUr0QqNZa+qrImUk8fn5SPhHq+IfYvIoIMg0do3GdK9sMdiLKP3GYVVaxpPKORgm8KRKaNTEhAjgIpLMw==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
 axios@^0.19.0:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
@@ -46,12 +39,11 @@ kitsu-core@^7.2.2:
   resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.2.2.tgz#2140389a20e13062e9f58e247d8f045a79099105"
   integrity sha512-DSSc1+lPYKaIUlnVsQse4pe/kryO1wvOzXOn+1ESGSg1b5zbNiZoySLd5QrZJX5hhK4cZRMYlRZIhRgBH4Bg2w==
 
-kitsu@~7.2.0:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.2.2.tgz#5ef2cc01c1c9c62dcc76d4f25c9b07020fa81d99"
-  integrity sha512-I/bajletuXB5T7DstnoEOCdE3Fsy2jT4LsO/EECdW3ElJSd4S0yhFFXAP77mTLv5Pj4riqB82n5ak6JooFks6Q==
+kitsu@~7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.3.0.tgz#e72968b406e471a61c8d43b96ccb76a15aaa6dce"
+  integrity sha512-OgykU2p5gmDyApKXua1C9HnrXCfg6aDzYKgv81zgcwRmhEz7zwUbGyuqyuYOwtpBUM7GWOpwApiBNtj01jNZ5A==
   dependencies:
-    "@babel/runtime" "^7.7.4"
     axios "^0.19.0"
     kitsu-core "^7.2.2"
     pluralize "^8.0.0"
@@ -89,11 +81,6 @@ pluralize@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
-
-regenerator-runtime@^0.13.2:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
-  integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
 
 stats-lite@~2.2.0:
   version "2.2.0"
