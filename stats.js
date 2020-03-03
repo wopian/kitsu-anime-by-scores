@@ -77,7 +77,11 @@ function printStats (data, unratedcount) {
     const row = [statistic]
     // console.log(stats[statistic])
     Object.keys(stats[statistic]).forEach(subtype => {
-      row.push(stats[statistic][subtype])
+      if (subtype === 'All') {
+        row.push(`**${stats[statistic][subtype]}**`)
+      } else {
+        row.push(stats[statistic][subtype])
+      }
     })
     rows.push(row)
   })
