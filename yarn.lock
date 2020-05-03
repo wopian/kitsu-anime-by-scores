@@ -28,18 +28,18 @@ isnumber@~1.0.0:
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-8.2.0.tgz#401e6f77b3a3e7b8c645c716b5c797a4b1f763fc"
-  integrity sha512-Tv7+MPIVD29ce1TIM6clXbjY7ttuhPl+UMcGBu2Ab8Wbcwy0gahEm7fZJPhRHba8uZl0lEPi7ipdyDqPIOn4pA==
+kitsu-core@^8.3.1:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-8.3.1.tgz#89b8848694c371afca38d81333e4225fdf77cb33"
+  integrity sha512-Zf3sqz//9C8Kq9LVoBP4D8dQpaeeDqM+TWO38y/emmr3JiHMz3fNlDva5IK0bchsU3AshtXD5Z83FZxnLglkig==
 
-kitsu@~8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-8.2.0.tgz#325bcd33821287903119814c567f2320ea9acd52"
-  integrity sha512-qop+4Fxg5ndwU+cPhlh7vUBRweCV+J+KscR3BPAttuhKZ9+s5JTRf35dUwtKFG+SzEyMeDqg94+KlY8RgID3ng==
+kitsu@~8.3.0:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-8.3.1.tgz#9c1e8fedd59eb2ce3569b6605bd6e472d45c9301"
+  integrity sha512-0JKkSgh1I1umq7VH4TXcxQpz4R0VijB2g4nWxBXy+B/5CLLVocmlkcEW8eylVx7A2u0misjn+t8baEGLLrwOVQ==
   dependencies:
     axios "^0.19.0"
-    kitsu-core "^8.2.0"
+    kitsu-core "^8.3.1"
     pluralize "^8.0.0"
 
 markdown-table@~2.0.0:
