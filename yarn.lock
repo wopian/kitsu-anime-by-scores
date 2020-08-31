@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-axios@^0.19.0:
+axios@~0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
@@ -28,18 +28,18 @@ isnumber@~1.0.0:
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^9.1.13:
-  version "9.1.13"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.13.tgz#5d05b4bcb2e047615cc613d42900997e746361e7"
-  integrity sha512-WqTJZ6FVf/5Dn0KAfA5kiXdnEvyU3Wk7ugK8/jRYuTf6FtdJVi95+1pai6AhlhTn0RmDXP8YV//RB/1BKQLHfQ==
+kitsu-core@^9.1.15:
+  version "9.1.15"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.15.tgz#9c22f9b416e6a544896548a8e151760c7eed96af"
+  integrity sha512-jqs74f0JRT8vkDzISLbbef6AtdYunIqZy2qMvQMDjXSTHfD/zPOL5AHqc/kUtW7XpF6u7edkzANJLn8ackXwqw==
 
 kitsu@~9.1.0:
-  version "9.1.13"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.13.tgz#a3c08c22190b2844ca267db7afaf2d915ee6e07a"
-  integrity sha512-zfBjtBH0+1ehqry862JQ72CcE4tDY4tACvQfWhltTXukMebxwnzNY6CJiYZyTijXbFqnJEK+dILQY8C8sxxMvA==
+  version "9.1.15"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.15.tgz#ecc3c90c84a6d28c7b443a12c70e1e8406d0fb01"
+  integrity sha512-bRsdtqZ/46Wu2v7/tIaISnX5mCVpoNywe0F4fxYY32kraJ4K9+EEsa9FWckVwU4xz0bMf4/zKLjvpcs0PrF0ow==
   dependencies:
-    axios "^0.19.0"
-    kitsu-core "^9.1.13"
+    axios "~0.19.2"
+    kitsu-core "^9.1.15"
     pluralize "^8.0.0"
 
 markdown-table@~2.0.0:
