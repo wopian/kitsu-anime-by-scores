@@ -1,4 +1,4 @@
-# Kitsu Anime By Scores (February 2020)
+# Kitsu Anime By Scores (October 2020)
 
 Jump To:
 - [Results - Average Ratings](#average-ratings)
