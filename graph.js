@@ -1,6 +1,10 @@
 
 const { PLOTLY_USERNAME, PLOTLY_API_KEY } = require('./env')
-const  plotly = require('plotly')(PLOTLY_USERNAME, PLOTLY_API_KEY)
+const  plotly = require('plotly')({
+  username: PLOTLY_USERNAME,
+  apiKey: PLOTLY_API_KEY,
+  host: 'chart-studio.plotly.com'
+})
 const { createWriteStream } = require('fs')
 const dataFrequency = require('./dataFrequency.json')
 const dataAverage = require('./dataAverage.json')
@@ -35,6 +39,7 @@ function generateImage ({ figure, type, subtype }) {
     if (err) throw err
     const fileStream = createWriteStream(`images/${type}${subtype ? `_${subtype}` : ``}.png`)
     imageStream.pipe(fileStream)
+    //fileStream.pipe(imageStream)
   })
 }
 
