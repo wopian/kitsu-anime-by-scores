@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@types/repeat-string/-/repeat-string-1.6.0.tgz#79fa5c9e9b5fad3247b497ca67b021f78cacfdf2"
   integrity sha512-Nwr4xMZBJKzluvdF9QPKjqFi8EpR63jk0mQPBEXB/+kevUPBftRQrbt24m+NkRh0C9ftrNIqnnsDw9iyQv/j7g==
 
-axios@^0.21.0:
+axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
   integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
@@ -15,27 +15,27 @@ axios@^0.21.0:
     follow-redirects "^1.10.0"
 
 follow-redirects@^1.10.0:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
-  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 isnumber@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^9.1.16:
-  version "9.1.16"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.16.tgz#da45c1c09e301600cc2e0a057d576b7a51db1070"
-  integrity sha512-aLrMJxBO4JRPrlwLUvtrGzGCtNCPXSL9D1YjNPGMgpDWpozz06Ubo5yYZmljoeNlwJxtaH2z6PyGkeNGb2phag==
+kitsu-core@^9.1.18:
+  version "9.1.18"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.18.tgz#2f0a8f01a5bc3f04484e244eadd98f6704545155"
+  integrity sha512-3P5OMLtk5KhIhaVw6Oz78AzmnoqqMUpNeDusJYVpiwJdINOxTpN3RGlxf0kbiuoP+zSKaLYelIu3ELqDyCg1qw==
 
 kitsu@~9.1.0:
-  version "9.1.16"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.16.tgz#bca5a7ecad5b223b59ac3d41f9379cadf2753761"
-  integrity sha512-uOeafX74boXx8VOXA2VJFrAiPQ0iFDCeD7kh75hfMc42J1CNACkruwzpPyX4be//GXElQQ/hn4t/GGgcbqlaHw==
+  version "9.1.18"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.18.tgz#09c78df9b64ee3632209580c2f77e76fdbfda7f4"
+  integrity sha512-fjHOE72kJh1HvK3ImZJZ4SQYW4dT8abPLpFyid7Exy96/jEgdxaLT8VSONU9KSBSUM4rYEXbrKw/HGysshoBsQ==
   dependencies:
-    axios "^0.21.0"
-    kitsu-core "^9.1.16"
+    axios "^0.21.1"
+    kitsu-core "^9.1.18"
     pluralize "^8.0.0"
 
 markdown-table@~3.0.0:
