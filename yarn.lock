@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/repeat-string@^1.0.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@types/repeat-string/-/repeat-string-1.6.0.tgz#79fa5c9e9b5fad3247b497ca67b021f78cacfdf2"
-  integrity sha512-Nwr4xMZBJKzluvdF9QPKjqFi8EpR63jk0mQPBEXB/+kevUPBftRQrbt24m+NkRh0C9ftrNIqnnsDw9iyQv/j7g==
-
 axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
@@ -24,27 +19,24 @@ isnumber@~1.0.0:
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^9.1.18:
-  version "9.1.18"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.18.tgz#2f0a8f01a5bc3f04484e244eadd98f6704545155"
-  integrity sha512-3P5OMLtk5KhIhaVw6Oz78AzmnoqqMUpNeDusJYVpiwJdINOxTpN3RGlxf0kbiuoP+zSKaLYelIu3ELqDyCg1qw==
+kitsu-core@^9.1.19:
+  version "9.1.19"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.19.tgz#a0620e7d5677eb604e7102ba36692c4bf609fb29"
+  integrity sha512-h9AeRq76YHwd3TKCfjbUuysTrgOPyaiGKzwIv2BIQ+SERJDOEQmGMriAxzbRHt7rQ8d5zqbIhrwEarGXMZEvGw==
 
 kitsu@~9.1.0:
-  version "9.1.18"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.18.tgz#09c78df9b64ee3632209580c2f77e76fdbfda7f4"
-  integrity sha512-fjHOE72kJh1HvK3ImZJZ4SQYW4dT8abPLpFyid7Exy96/jEgdxaLT8VSONU9KSBSUM4rYEXbrKw/HGysshoBsQ==
+  version "9.1.19"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.19.tgz#8ebedec7e49afade573511f72c8c1a69dc815b2b"
+  integrity sha512-f3QsckwLEH3DxpNtUrBiIifDC6JHD5IvruWWyBiGS6+MZmedJ9KnhVS4NpInX+weDLrS0Z20Ah2gBFqptdwVtw==
   dependencies:
     axios "^0.21.1"
-    kitsu-core "^9.1.18"
+    kitsu-core "^9.1.19"
     pluralize "^8.0.0"
 
 markdown-table@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.0.tgz#7f6537d4565c3cec712ac7b34b345f404b46506a"
-  integrity sha512-sSFatFzGRPVHCKgj80iNcYDdySAGS36qBzPON99RO0Zl5YwkK38zmhMQ0QSJik3YxGroyBnqP51ZGLueDtOqmg==
-  dependencies:
-    "@types/repeat-string" "^1.0.0"
-    repeat-string "^1.0.0"
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.1.tgz#88c48957aaf2a8014ccb2ba026776a1d736fe3dc"
+  integrity sha512-CBbaYXKSGnE1uLRpKA1SWgIRb2PQrpkllNWpZtZe6VojOJ4ysqiq7/2glYcmKsOYN09QgH/HEBX5hIshAeiK6A==
 
 minimist@^1.2.5:
   version "1.2.5"
@@ -69,11 +61,6 @@ pluralize@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
-
-repeat-string@^1.0.0:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
-  integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
 stats-lite@~2.2.0:
   version "2.2.0"
