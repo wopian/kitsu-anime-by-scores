@@ -1,33 +1,38 @@
 const { mean, median, variance, stdev, percentile, histogram } = require('stats-lite')
 const table = require('markdown-table')
-const dataFrequency = require('./dataFrequency.json')
-const dataAverage = require('./dataAverage.json')
-const titles = { movie: 'Movies', ONA: 'ONAs', OVA: 'OVAs', special: 'Specials', music: 'Music' }
-const frequency = { All: [], TV: [], Movies: [], ONAs: [], OVAs: [], Specials: [], Music: [] }
-const average = { All: [], TV: [], Movies: [], ONAs: [], OVAs: [], Specials: [], Music: [] }
-const unrated = {
-  frequency: { All: 0, TV: 0, Movies: 0, ONAs: 0, OVAs: 0, Specials: 0, Music: 0 },
-  average: { All: 0, TV: 0, Movies: 0, ONAs: 0, OVAs: 0, Specials: 0, Music: 0 }
+const titles = {
+  movie: 'Movies',
+  ONA: 'ONAs',
+  OVA: 'OVAs',
+  special: 'Specials',
+  music: 'Music',
+  manga: 'Manga',
+  novel: 'Novels',
+  oneshot: 'Oneshots',
+  oel: 'OELs',
+  manhua: 'Manhua',
+  manhwa: 'Manhwa',
+  doujin: 'Doujins'
 }
-const replace = str => str.replace(/movie|ONA|OVA|special|music/gi, matched => titles[matched])
-
-dataFrequency.forEach(({ score, subtype }) => {
-  frequency[replace(subtype)].push(score)
-  if (score === '0.00') {
-    unrated.frequency[replace(subtype)]++
-    unrated.frequency.All++
+const frequency = {
+  anime: { All: [], TV: [], Movies: [], ONAs: [], OVAs: [], Specials: [], Music: [] },
+  manga: { All: [], Manga: [], Manhua: [], Manhwa: [], Novels: [], OELs: [], Doujins: [], Oneshots: [] }
+}
+const average =  {
+  anime: { All: [], TV: [], Movies: [], ONAs: [], OVAs: [], Specials: [], Music: [] },
+  manga: { All: [], Manga: [], Manhua: [], Manhwa: [], Novels: [], OELs: [], Doujins: [], Oneshots: [] }
+}
+const unrated = {
+  anime: {
+    frequency: { All: 0, TV: 0, Movies: 0, ONAs: 0, OVAs: 0, Specials: 0, Music: 0 },
+    average: { All: 0, TV: 0, Movies: 0, ONAs: 0, OVAs: 0, Specials: 0, Music: 0 }
+  },
+  manga: {
+    frequency: { All: 0, Manga: 0, Novels: 0, Oneshots: 0, OELs: 0, Manhua: 0, Manhwa: 0, Doujins: 0 },
+    average: { All: 0, Manga: 0, Novels: 0, Oneshots: 0, OELs: 0, Manhua: 0, Manhwa: 0, Doujins: 0 }
   }
-  frequency.All.push(score)
-})
-
-dataAverage.forEach(({ score, subtype }) => {
-  average[replace(subtype)].push(score)
-  if (score === null) {
-    unrated.average[replace(subtype)]++
-    unrated.average.All++
-  }
-  average.All.push(score)
-})
+}
+const replace = str => str.replace(/movie|ONA|OVA|special|music|manga|novel|oneshot|oel|manhua|manhwa|doujin/gi, matched => titles[matched])
 
 function printStats (data, unratedcount) {
   const header = ['']
@@ -92,5 +97,28 @@ function printStats (data, unratedcount) {
   console.log(render)
 }
 
-printStats(average, unrated.average)
-printStats(frequency, unrated.frequency)
+['anime', 'manga'].forEach(type => {
+  const dataFrequency = require(`./dataFrequency-${type}.json`)
+  const dataAverage = require(`./dataAverage-${type}.json`)
+
+  dataFrequency.forEach(({ score, subtype }) => {
+    frequency[type][replace(subtype)].push(score)
+    if (score === '0.00') {
+      unrated[type].frequency[replace(subtype)]++
+      unrated[type].frequency.All++
+    }
+    frequency[type].All.push(score)
+  })
+
+  dataAverage.forEach(({ score, subtype }) => {
+    average[type][replace(subtype)].push(score)
+    if (score === null) {
+      unrated[type].average[replace(subtype)]++
+      unrated[type].average.All++
+    }
+    average[type].All.push(score)
+  })
+
+  printStats(average[type], unrated[type].average)
+  printStats(frequency[type], unrated[type].frequency)
+})
