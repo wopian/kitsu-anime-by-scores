@@ -1,8 +1,10 @@
 # Kitsu Anime By Scores (December 2021)
 
 Jump To:
-- [Results - Average Ratings](#average-ratings)
-- [Results - Rating Frequencies](#rating-frequencies)
+- [Results - Anime Average Ratings](#average-ratings)
+- [Results - Anime Rating Frequencies](#rating-frequencies)
+- [Results - Manga Average Ratings](#average-ratings-1)
+- [Results - Manga Rating Frequencies](#rating-frequencies-1)
 - [October 2020 Results](https://github.com/wopian/kitsu-anime-by-scores/tree/master/2020/October/README.md)
 - [February 2020 Results](https://github.com/wopian/kitsu-anime-by-scores/tree/master/2020/February/README.md)
 - [October 2018 Results](https://github.com/wopian/kitsu-anime-by-scores/tree/master/2018/README.md)
