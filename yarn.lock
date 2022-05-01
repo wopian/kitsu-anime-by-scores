@@ -2,35 +2,35 @@
 # yarn lockfile v1
 
 
-axios@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.23.0.tgz#b0fa5d0948a8d1d75e3d5635238b6c4625b05149"
-  integrity sha512-NmvAE4i0YAv5cKq8zlDoPd1VLKAqX5oLuZKs8xkJa4qi6RGn0uhCYFjWtHHC9EM/MwOwYWOs53W+V0aqEXq1sg==
+axios@^0.26.0:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
+  integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
   dependencies:
-    follow-redirects "^1.14.4"
+    follow-redirects "^1.14.8"
 
-follow-redirects@^1.14.4:
-  version "1.14.8"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
-  integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
+follow-redirects@^1.14.8:
+  version "1.14.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
+  integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
 
 isnumber@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isnumber/-/isnumber-1.0.0.tgz#0e3f9759b581d99dd85086f0ec2a74909cfadd01"
   integrity sha1-Dj+XWbWB2Z3YUIbw7Cp0kJz63QE=
 
-kitsu-core@^9.1.21:
-  version "9.1.21"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.21.tgz#79e00e0d56a7d2677857e495422ee0bb542617ca"
-  integrity sha512-V2VBeinRczlT71ZEpriyOWhasKK70udnVBFVW5MC3ac5Zimit1igla3p7znpG5P9I9V8g6zfb+6KrUGCaz9TJg==
+kitsu-core@^9.1.25:
+  version "9.1.25"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.25.tgz#0bc88c74e9366444a91848f1c3f562c136c32edf"
+  integrity sha512-30G2gI4ZLJEjPohF1vp0j3AP6rnLXtsLftZAsgxCyJSDIWvNwY5EalX8POTfXe7p0hcaX+BYqklVWRoCaQCpLA==
 
 kitsu@~9.1.0:
-  version "9.1.21"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.21.tgz#5b772c5ef19adc82628c590b32a9b5032adccfc3"
-  integrity sha512-p8au6UylOh7+GxfEvh2yr4tz8gXvdg5epU4kntrZvz3TQcQH91hNS3rBC2z1eI7oKfTg1fLoiv8uelNAAaLx9w==
+  version "9.1.25"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.25.tgz#577cf091fba1a1b28385a2ee692e68d40cf4662e"
+  integrity sha512-Lx8CdecZmS4UF4roON8kCvZDQFMY/LkZOClfEFZjVW+O4fK8Abm45OMGAD+5wbkF0ClBmA+BJ6v1bULdeUCLpQ==
   dependencies:
-    axios "^0.23.0"
-    kitsu-core "^9.1.21"
+    axios "^0.26.0"
+    kitsu-core "^9.1.25"
     pluralize "^8.0.0"
 
 markdown-table@~2.0.0:
@@ -40,17 +40,17 @@ markdown-table@~2.0.0:
   dependencies:
     repeat-string "^1.0.0"
 
-minimist@^1.2.5:
+minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mkdirp@~0.5.0:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
-  integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.6.tgz#7def03d2432dcae4ba1d611445c48396062255f6"
+  integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
-    minimist "^1.2.5"
+    minimist "^1.2.6"
 
 plotly@~1.0.6:
   version "1.0.6"
