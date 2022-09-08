@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "kitsu": "~10.0.0",
-    "markdown-table": "~2.0.0",
+    "markdown-table": "~3.0.0",
     "plotly": "~1.0.6",
     "stats-lite": "~2.2.0",
     "weighted-mean": "~1.0.2"
